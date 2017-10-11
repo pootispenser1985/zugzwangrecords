@@ -25,6 +25,14 @@
   color: white;
 }
 
+.middle-content {
+  text-align: center;
+  padding-top: 1em;
+  padding-right: 7em;
+  padding-bottom: 1em;
+  padding-left: 7em;
+}
+
 .nav-element {
   font-size: 2em;
   font-weight: bold;
