@@ -1,3 +1,15 @@
+#bottom-nav-bar {
+  background-color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#bottom-nav-bar a {
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+}
+
 #logo {
   height: 4em;
 }
@@ -22,4 +34,8 @@
 .nav-element a {
   color: white;
   text-decoration: none;
+}
+
+.social-media {
+
 }
