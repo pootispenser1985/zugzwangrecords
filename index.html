@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://thrashcan.net/includes/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" href="http://thrashcan.net/includes/bootstrap.min.css">
     <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main.css?v=101117l">
+    <link rel="stylesheet" href="main.css?v=101217a">
     <title>Zugzwang Records</title>
     <body>
     <div class="container">
@@ -33,8 +34,23 @@
       </div> <!-- end top-nav-bar -->
       <div class="row middle-content" id="about">
         <h3>About Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Started in 2014, Zugzwang Records was created to create.<br>
+          We specialize in recording but also offer mixing, mastering, and publishing services.<br>
+          It's hard to be an artist and maintain the motivation to do what you do.<br>
+          Our mission is to inspire people to create - and prevent the headaches along the way.<br></p>
+
+          <p><a href="#" onclick="showContacts()">Contact us</a> for more information or to book studio time!</p>
       </div> <!-- end 'about' section -->
+      <!-- contact section will suddenly appear as a result of clicking contact us -->
+      <script>
+        function showContacts() {
+          $('#contact').toggleClass('visible');
+        }
+      </script>
+      <div class="row" id="contact" style="display: none;">
+        testing one two derp
+      </div>
+      </div> <!-- end 'contact' section -->
       <div class="row middle-content" id="gear" style="background-color: black; color: white">
         <h3>Music Gear</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
