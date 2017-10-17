@@ -8,6 +8,7 @@
     <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="main.js?v=6"></script>
     <link rel="stylesheet" href="main.css?v=101217a">
     <title>Zugzwang Records</title>
     <body>
@@ -39,16 +40,16 @@
           It's hard to be an artist and maintain the motivation to do what you do.<br>
           Our mission is to inspire people to create - and prevent the headaches along the way.<br></p>
 
-          <p><a href="#" onclick="showContacts()">Contact us</a> for more information or to book studio time!</p>
+          <p><a href="#" id="contactLink">Contact us</a> for more information or to book studio time!</p>
       </div> <!-- end 'about' section -->
-      <!-- contact section will suddenly appear as a result of clicking contact us -->
-      <script>
-        function showContacts() {
-          $('#contact').toggleClass('visible');
-        }
-      </script>
-      <div class="row" id="contact" style="display: none;">
-        testing one two derp
+      <!-- contact section will suddenly appear as a result of clicking contact us style="display: none;" -->
+      <div class="row text-center" id="contact" style="display: none;">
+        <p>Studio // General<br>
+          hart@zugzwangrecords.com</p>
+        <p>Creative<br>
+          ryan@zugzwangrecords.com</p>
+        <p>Accounting<br>
+          lucas@zugzwangrecords.com</p>
       </div>
       </div> <!-- end 'contact' section -->
       <div class="row middle-content" id="gear" style="background-color: black; color: white">
