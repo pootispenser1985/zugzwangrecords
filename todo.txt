@@ -1,0 +1,4 @@
+-create an expandable list with headings for the music gear
+-rewrite main.css to use SASS
+-create download code generating mechanism
+-fonts
