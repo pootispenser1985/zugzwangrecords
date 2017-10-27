@@ -1,5 +1,6 @@
 GOTTA DO:
--create an expandable list with headings for the music gear
+-decide on 'poster' layout for gear list, or expandable list
+-create mobile version (col-xs-*)
 -create download code generating mechanism
 -fonts
 -spell checking, proofreading
