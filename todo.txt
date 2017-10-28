@@ -1,5 +1,5 @@
 GOTTA DO:
--decide on 'poster' layout for gear list, or expandable list
+
 -create mobile version (col-xs-*)
 -create download code generating mechanism
 -fonts
@@ -10,3 +10,5 @@ GOTTA DO:
 
 DONE DID:
 -rewrite main.css to use SASS - DONE 10/18
+-decide on 'poster' layout for gear list, or expandable list
+-del featured/friends, make borderless
