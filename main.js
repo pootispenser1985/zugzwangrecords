@@ -14,6 +14,10 @@ $(document).ready(function() {
   function submitEmail() {
     var email = $('#email').val();
 
-    alert(email);
+    $.ajax({
+      type: "POST",
+      url: "inserter.php",
+      data: "email=" + email
+    });
   }
 });
