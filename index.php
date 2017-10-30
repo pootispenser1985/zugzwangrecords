@@ -8,8 +8,8 @@
     <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <script src="main.js?v=8"></script>
-    <link rel="stylesheet" href="main.css?v=102717d">
+    <script src="main.js?v=9"></script>
+    <link rel="stylesheet" href="main.css?v=103017a">
     <title>Zugzwang Records</title>
     <body>
     <div class="container">
@@ -155,6 +155,12 @@
       <div class="row middle-content" id="downloads">
         <h3>Free Downloads!</h3>
         <p>Enter your email address below and click on the validation link to recieve a code to download a free track!</p>
+        <form id="email-form" role="form">
+          <input id="email" type="text">
+          <input type="submit"></input>
+        </form>
+        <br>
+        <span id="output"></span>
       </div> <!-- end 'downloads' section -->
       <div class="row" id="bottom-nav-bar">
         <div class="col-md-3 text-center social-media">
