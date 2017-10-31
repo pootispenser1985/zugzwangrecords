@@ -8,7 +8,7 @@
     <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <script src="main.js?v=9"></script>
+    <script src="main.js?v=10"></script>
     <link rel="stylesheet" href="main.css?v=103017a">
     <title>Zugzwang Records</title>
     <body>
