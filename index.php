@@ -9,13 +9,13 @@
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="main.js?v=11"></script>
-    <link rel="stylesheet" href="main.css?v=103117n">
+    <link rel="stylesheet" href="main.css?v=103117r">
     <title>Zugzwang Records</title>
     <body>
     <div class="container">
       <div class="row" id="top-nav-bar">
         <div class="col-xs-6 col-md-3 nav-element text-center" id="logoHolder">
-          <img id="logo" src="images/zugzwangLogo.png" />
+          <img id="logo" src="images/zugzwangLogoWhite.png?v=1" />
         </div>
         <div class="col-md-3 hidden-xs hidden-sm nav-element text-center">
           <a href="#about">About</a>

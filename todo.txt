@@ -1,9 +1,7 @@
 GOTTA DO:
 
--save the user's email address in the database, 
--create a redeem page that checks if the users email is in the database, 
-and only displays the song list if it does. the links to the tracks can 
-be stored in a sql db down the road, for a little more obscurity 
--create mobile version (col-xs-*)
+-create a redeem page that checks if the users email is in the database,
+and only displays the song list if it does. the links to the tracks can
+be stored in a sql db down the road, for a little more obscurity
 -fonts
 -spell checking, proofreading
