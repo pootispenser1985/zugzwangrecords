@@ -8,23 +8,33 @@
     <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
       href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <script src="main.js?v=10"></script>
-    <link rel="stylesheet" href="main.css?v=103017a">
+    <script src="main.js?v=11"></script>
+    <link rel="stylesheet" href="main.css?v=103117n">
     <title>Zugzwang Records</title>
     <body>
     <div class="container">
       <div class="row" id="top-nav-bar">
-        <div class="col-md-3 nav-element text-center" id="logoHolder">
+        <div class="col-xs-6 col-md-3 nav-element text-center" id="logoHolder">
           <img id="logo" src="images/zugzwangLogo.png" />
         </div>
-        <div class="col-md-3 nav-element text-center">
+        <div class="col-md-3 hidden-xs hidden-sm nav-element text-center">
           <a href="#about">About</a>
         </div>
-        <div class="col-md-3 nav-element text-center">
+        <div class="col-md-3 hidden-xs hidden-sm nav-element text-center">
           <a href="#gear">Gear</a>
         </div>
-        <div class="col-md-3 nav-element text-center">
+        <div class="col-md-3 hidden-xs hidden-sm nav-element text-center">
           <a href="#downloads">Downloads</a>
+        </div>
+        <div class="col-xs-6 hidden-md hidden-lg hidden-xl">
+          <i class="fa fa-bars" aria-hidden="true" id="mobile-menu-button"></i>
+        </div>
+        <div class="col-xs-12 hidden-md hidden-lg hidden-xl text-right" id="mobile-menu" style="display: none;">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gear">Gear</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+          </ul>
         </div>
       </div> <!-- end top-nav-bar -->
       <div class="row middle-content" id="about">
@@ -163,16 +173,16 @@
         <span id="output"></span>
       </div> <!-- end 'downloads' section -->
       <div class="row" id="bottom-nav-bar">
-        <div class="col-md-3 text-center social-media">
+        <div class="col-xs-3 col-md-3 text-center social-media">
           <a href="https://www.facebook.com/zugzwangrecords/"><i class="fa fa-facebook"></i></a>
         </div>
-        <div class="col-md-3 text-center social-media">
+        <div class="col-xs-3 col-md-3 text-center social-media">
           <a href="https://twitter.com/zugzwangrecords"><i class="fa fa-twitter"></i></a>
         </div>
-        <div class="col-md-3 text-center social-media">
+        <div class="col-xs-3 col-md-3 text-center social-media">
           <a href="https://www.youtube.com/channel/UCXqWxB_q1wKZ_XKLUUcedeA/videos"><i class="fa fa-youtube"></i></a>
         </div>
-        <div class="col-md-3 text-center social-media">
+        <div class="col-xs-3 col-md-3 text-center social-media">
           <a href="https://www.instagram.com/zugzwangrecords/"><i class="fa fa-instagram"></i></a>
         </div>
       </div> <!-- end bottom-nav-bar -->

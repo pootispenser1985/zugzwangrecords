@@ -18,7 +18,7 @@
 }
 
 #logo {
-  height: 4em;
+  height: 3em;
 }
 
 #logoHolder {
@@ -30,6 +30,30 @@
 #top-nav-bar {
   background-color: black;
   color: white;
+  #mobile-menu-button {
+    font-size: 3.5em;
+    float: right;
+    margin-top: 0.25em;
+    margin-right: 0.25em;
+  }
+
+  #mobile-menu {
+    margin-right: 2em;
+    margin-bottom: 2em;
+    a {
+      color: white;
+      margin-right: 0.25em;
+      text-decoration: none;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    ul {
+      li {
+        margin-bottom: 0.5em;
+      }
+      list-style: none;
+    }
+  }
 }
 
 .container {

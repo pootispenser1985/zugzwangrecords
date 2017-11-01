@@ -1,11 +1,15 @@
 $(document).ready(function() {
-  //following two functions are for showing or hiding parts of the page
+  //following functions are for showing or hiding parts of the page
   $('#contactLink').click(function() {
     $('#contact').toggle();
   });
   $('.gear-heading').click(function() {
     $(this).next().toggle();
   });
+  $('#mobile-menu-button').click(function() {
+    $('#mobile-menu').toggle();
+  });
+
   //instead of the default submit action, do submitEmail()
   $('#email-form').submit(function(event) {
     event.preventDefault();
