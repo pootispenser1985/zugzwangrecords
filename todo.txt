@@ -1,4 +1,7 @@
 GOTTA DO:
+-facebook widget feed within about popup
+-gear tab on its own page?
+-store tab that redirects to zugzwangrecords.bigcartel.com
 
 -create a redeem page that checks if the users email is in the database,
 and only displays the song list if it does. the links to the tracks can

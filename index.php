@@ -53,8 +53,14 @@
           hart@zugzwangrecords.com</p>
         <p>Creative<br>
           ryan@zugzwangrecords.com</p>
-        <p>Accounting<br>
+        <p>Outreach<br>
           lucas@zugzwangrecords.com</p>
+
+
+        <!-- <div class="fb-page" data-href="https://www.facebook.com/zugzwangrecords/"
+        data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+        data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/zugzwangrecords/"
+        class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/zugzwangrecords/">Zugzwang Records</a></blockquote></div> -->
       </div> <!-- end 'contact' section -->
       <div class="row middle-content text-center" id="gear" style="background-color: black; color: white; padding-top: 2em;">
         <button class="gear-heading">Studio Gear</button>
