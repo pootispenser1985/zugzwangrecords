@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="http://thrashcan.net/includes/jquery-3.1.1.min.js"></script>
-    <link rel="stylesheet" href="http://thrashcan.net/includes/bootstrap.min.css">
-    <script src="http://thrashcan.net/includes/bootstrap.min.js"></script>
+    <script src="https://thrashcan.net/includes/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://thrashcan.net/includes/bootstrap.min.css">
+    <script src="https://thrashcan.net/includes/bootstrap.min.js"></script>
     <link rel="stylesheet"
-      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="main.js?v=11"></script>
     <link rel="stylesheet" href="main.css?v=103117r">
     <title>Zugzwang Records</title>
