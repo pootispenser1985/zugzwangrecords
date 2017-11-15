@@ -30,7 +30,7 @@
         <div class="col-xs-6 hidden-md hidden-lg hidden-xl">
           <i class="fa fa-bars" aria-hidden="true" id="mobile-menu-button"></i>
         </div>
-        <div class="col-xs-12 hidden-md hidden-lg hidden-xl text-right" id="mobile-menu" style="display: none;">
+        <div class="col-xs-12 hidden-md hidden-lg hidden-xl text-right" id="mobile-menu" style="display: none$
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#gear">Gear</a></li>
@@ -38,16 +38,23 @@
           </ul>
         </div>
       </div> <!-- end top-nav-bar -->
-      <!-- <div class="row middle-content" id="downloads">
-        <h3>Free Downloads!</h3>
-        <p>Enter your email address below and click on the validation link to recieve a code to download a free track!</p>
-        <form id="email-form" role="form">
-          <input id="email" type="text">
-          <input type="submit"></input>
-        </form>
-        <br>
-        <span id="output"></span>
-      </div> end 'downloads' section -->
+      <div class="row middle-content" id="about">
+        <h3>About Us</h3>
+        <p>Started in 2014, Zugzwang Records was created to create.<br>
+          We specialize in recording but also offer mixing, mastering, and publishing services.<br>
+          It's hard to be an artist and maintain the motivation to do what you do.<br>
+          Our mission is to inspire people to create - and prevent the headaches along the way.<br></p>
+          <button id="contactLink">
+            <i class="fa fa-envelope"></i>Contact us!</button>
+      </div> <!-- end 'about' section -->
+      <div class="row text-center" id="contact" style="display: none;">
+        <p>Studio // General<br>
+          hart@zugzwangrecords.com</p>
+        <p>Creative<br>
+          ryan@zugzwangrecords.com</p>
+        <p>Outreach<br>
+          lucas@zugzwangrecords.com</p>
+      </div> <!-- end 'contact' section -->
       <div class="row" id="bottom-nav-bar">
         <div class="col-xs-3 col-md-3 text-center social-media">
           <a href="https://www.facebook.com/zugzwangrecords/"><i class="fa fa-facebook"></i></a>

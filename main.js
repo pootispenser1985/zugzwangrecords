@@ -9,7 +9,9 @@ $(document).ready(function() {
   $('#mobile-menu-button').click(function() {
     $('#mobile-menu').toggle();
   });
-
+  $('#gear-toggler').click(function() {
+    $('#gear').toggle();
+  });
   //instead of the default submit action, do submitEmail()
   $('#email-form').submit(function(event) {
     event.preventDefault();
