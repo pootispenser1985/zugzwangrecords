@@ -11,6 +11,7 @@
     <script src="main.js?v=14"></script>
     <link rel="stylesheet" href="main.css?v=1002">
     <title>Zugzwang Records</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div class="container">

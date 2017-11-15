@@ -11,6 +11,7 @@
     <script src="main.js?v=14"></script>
     <link rel="stylesheet" href="main.css?v=1002">
     <title>Zugzwang Records</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <div class="container">
@@ -38,6 +39,9 @@
           </ul>
         </div>
       </div> <!-- end top-nav-bar -->
+      <div class="jumbotron" style="background-color: white;">
+        <img src="/images/EarlyHumans-Release.png" />
+      </div>
       <!-- <div class="row middle-content" id="downloads">
         <h3>Free Downloads!</h3>
         <p>Enter your email address below and click on the validation link to recieve a code to download a free track!</p>
