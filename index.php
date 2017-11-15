@@ -33,14 +33,14 @@
         </div>
         <div class="col-xs-12 hidden-md hidden-lg hidden-xl text-right" id="mobile-menu" style="display: none;">
           <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gear">Gear</a></li>
-            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="/about.php">About</a></li>
+            <li><a href="/gear.php">Gear</a></li>
+            <li><a href="http://zugzwangrecords.bigcartel.com">Store</a></li>
           </ul>
         </div>
       </div> <!-- end top-nav-bar -->
       <div class="jumbotron" style="background-color: white;">
-        <img src="/images/EarlyHumans-Release.png" />
+        <img src="/images/EarlyHumans-Release.png" style="width: 80%;"/>
       </div>
       <!-- <div class="row middle-content" id="downloads">
         <h3>Free Downloads!</h3>
