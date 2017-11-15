@@ -8,3 +8,6 @@ and only displays the song list if it does. the links to the tracks can
 be stored in a sql db down the road, for a little more obscurity
 -fonts
 -spell checking, proofreading
+
+
+testing..
